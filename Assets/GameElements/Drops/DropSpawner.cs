@@ -55,7 +55,7 @@ public class DropSpawner : MonoBehaviour
                 chosenPrefab = GetRandomDrop(ediblesPrefabs, totalEdiblesProbability);
                 break;
             case "nasty":
-                chosenPrefab = GetRandomDrop(ediblesPrefabs, totalEdiblesProbability);
+                chosenPrefab = GetRandomDrop(nastysPrefabs, totalNastysProbability);
                 break;
         }
         return chosenPrefab;
