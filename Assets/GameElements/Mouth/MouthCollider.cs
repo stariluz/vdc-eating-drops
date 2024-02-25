@@ -5,7 +5,7 @@ using UnityEngine;
 public class MouthCollider : MonoBehaviour
 {
     Collider2D colider2D;
-    public static LivesManager livesManager;
+    public LivesManager livesManager;
     // Start is called before the first frame update
     void Start()
     {
@@ -14,6 +14,7 @@ public class MouthCollider : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D collider)
     {
+        Debug.Log(collider.tag);
         if(collider.CompareTag("Edible"))
         {
             // TODO: Logic when an edible is ate.

@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 9102918695337912090}
   m_Layer: 0
   m_Name: Trash
-  m_TagString: Edible
+  m_TagString: Nasty
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -153,6 +153,10 @@ PrefabInstance:
     - target: {fileID: 558082144135958353, guid: 745bce8a5aa604327bb5b1b9b1b2aa9c, type: 3}
       propertyPath: m_Name
       value: DropCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 558082144135958353, guid: 745bce8a5aa604327bb5b1b9b1b2aa9c, type: 3}
+      propertyPath: m_TagString
+      value: Nasty
       objectReference: {fileID: 0}
     - target: {fileID: 4065252998437986472, guid: 745bce8a5aa604327bb5b1b9b1b2aa9c, type: 3}
       propertyPath: m_LocalPosition.x
