@@ -48,7 +48,7 @@ public class DropSpawner : MonoBehaviour
     DropLogic ChooseRandomDrop()
     {
         DropLogic chosenPrefab = null;
-        string randomDropType = Random.Range(0f, 1f) > 0.6 ? "edible" : "nasty";
+        string randomDropType = Random.Range(0f, 1f) > 0.4 ? "edible" : "nasty";
         switch (randomDropType)
         {
             case "edible":
