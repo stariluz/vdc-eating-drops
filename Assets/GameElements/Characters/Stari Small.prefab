@@ -239,7 +239,7 @@ GameObject:
   - component: {fileID: 5262001216707916158}
   - component: {fileID: 3639232958490700634}
   m_Layer: 0
-  m_Name: Luffy Small
+  m_Name: Stari Small
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
