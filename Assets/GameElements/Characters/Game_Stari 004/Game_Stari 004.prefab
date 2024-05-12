@@ -764,7 +764,7 @@ Transform:
   m_Children:
   - {fileID: 2295582452867473605}
   m_Father: {fileID: 4043416357634235884}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0.748}
 --- !u!1 &1285376264757011050
 GameObject:
   m_ObjectHideFlags: 0
@@ -957,14 +957,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1447687298625228196}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0.026513718, w: 0.99964845}
+  m_LocalRotation: {x: 0, y: 0, z: 0.026469352, w: 0.99964964}
   m_LocalPosition: {x: 0.33874947, y: -0.0000008621755, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2582972140820353226}
   m_Father: {fileID: 2295582452867473605}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 3.034}
 --- !u!1 &1537207870718823150
 GameObject:
   m_ObjectHideFlags: 0
@@ -1768,11 +1768,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2635295992351785317}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: -0.026231423, w: 0.99965596}
+  m_LocalRotation: {x: 0, y: 0, z: -0.026167339, w: 0.99965763}
   m_LocalPosition: {x: 0.26370844, y: 0.00000012692728, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1994957807161466574}
   m_Father: {fileID: 5737105509708174638}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2656762161122610698
@@ -2472,6 +2473,37 @@ Transform:
   - {fileID: 1493904210701922792}
   m_Father: {fileID: 1114076438566011810}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &3699487196398151472
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1994957807161466574}
+  m_Layer: 0
+  m_Name: Tongue Effector
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1994957807161466574
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3699487196398151472}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: -0.000019423655, w: 1}
+  m_LocalPosition: {x: 0.581, y: -0.004, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2582972140820353226}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -0.002}
 --- !u!1 &3782980984555188790
 GameObject:
   m_ObjectHideFlags: 0
@@ -3035,6 +3067,7 @@ GameObject:
   - component: {fileID: 6445576359062268166}
   - component: {fileID: 4374248504219876450}
   - component: {fileID: 4409397821219064702}
+  - component: {fileID: 1591417881322512362}
   m_Layer: 0
   m_Name: Game_Stari 004
   m_TagString: Untagged
@@ -3058,6 +3091,7 @@ Transform:
   - {fileID: 2525503532948726754}
   - {fileID: 7068505695491010498}
   - {fileID: 6768704904698774571}
+  - {fileID: 8198243543008797664}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1563650352975253952
@@ -3196,6 +3230,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isMoving: 0
   speed: 5
+--- !u!114 &1591417881322512362
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5432359611513983510}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 097b551f2844b054290f18a39bf892e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Solvers:
+  - {fileID: 3996988666262411263}
+  m_Weight: 1
+  m_SolverEditorData:
+  - color: {r: 0, g: 1, b: 0, a: 1}
+    showGizmo: 1
+  - color: {r: 0, g: 1, b: 0, a: 1}
+    showGizmo: 1
+  - color: {r: 0, g: 1, b: 0, a: 1}
+    showGizmo: 1
 --- !u!1 &5730065337068428521
 GameObject:
   m_ObjectHideFlags: 0
@@ -4858,6 +4914,53 @@ Transform:
   - {fileID: 1418014617562662775}
   m_Father: {fileID: 6163783443069936720}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &9094831166848764967
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8198243543008797664}
+  - component: {fileID: 3996988666262411263}
+  m_Layer: 0
+  m_Name: Tongue Fabrik
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8198243543008797664
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9094831166848764967}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1277196982351197456}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3996988666262411263
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9094831166848764967}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ebfef5a6eb9c8044a0cbc7a08079e87, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ConstrainRotation: 1
+  m_SolveFromDefaultPose: 1
+  m_Weight: 1
 --- !u!1 &9103585686593235311
 GameObject:
   m_ObjectHideFlags: 0
