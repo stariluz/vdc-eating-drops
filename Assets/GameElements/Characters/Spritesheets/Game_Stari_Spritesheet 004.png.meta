@@ -3306,8 +3306,8 @@ TextureImporter:
         boneIndex[1]: 3
         boneIndex[2]: 0
         boneIndex[3]: 0
-      - weight[0]: 0.6439209
-        weight[1]: 0.25
+      - weight[0]: 0.64392096
+        weight[1]: 0.25000003
         weight[2]: 0.106079035
         weight[3]: 0
         boneIndex[0]: 2
@@ -3442,16 +3442,16 @@ TextureImporter:
         boneIndex[1]: 1
         boneIndex[2]: 0
         boneIndex[3]: 0
-      - weight[0]: 0.59825003
-        weight[1]: 0.31981838
+      - weight[0]: 0.59825
+        weight[1]: 0.31981835
         weight[2]: 0.08193166
         weight[3]: 0
         boneIndex[0]: 2
         boneIndex[1]: 1
         boneIndex[2]: 0
         boneIndex[3]: 0
-      - weight[0]: 0.5826942
-        weight[1]: 0.33572719
+      - weight[0]: 0.5826941
+        weight[1]: 0.33572716
         weight[2]: 0.08157866
         weight[3]: 0
         boneIndex[0]: 2
@@ -3482,9 +3482,9 @@ TextureImporter:
         boneIndex[1]: 2
         boneIndex[2]: 0
         boneIndex[3]: 0
-      - weight[0]: 0.68
+      - weight[0]: 0.67999995
         weight[1]: 0.17000002
-        weight[2]: 0.15
+        weight[2]: 0.14999999
         weight[3]: 0
         boneIndex[0]: 1
         boneIndex[1]: 0
@@ -3546,9 +3546,9 @@ TextureImporter:
         boneIndex[1]: 0
         boneIndex[2]: 4
         boneIndex[3]: 0
-      - weight[0]: 0.63391453
+      - weight[0]: 0.6339145
         weight[1]: 0.2
-        weight[2]: 0.16608551
+        weight[2]: 0.1660855
         weight[3]: 0
         boneIndex[0]: 1
         boneIndex[1]: 0
@@ -4045,14 +4045,14 @@ TextureImporter:
         guid: 52f1232d4db4c5a44997637a6af90421
         position: {x: 240.28897, y: 29.73761, z: 2}
         rotation: {x: 0, y: 0, z: 0.71094376, w: 0.70324886}
-        length: 192.27585
+        length: 192.27568
         parentId: -1
         color:
           serializedVersion: 2
           rgba: 4294967040
       - name: Head
         guid: bb7b018d423e24840ae1e9bbd29cf6a5
-        position: {x: 192.27585, y: 0.000001473103, z: 2}
+        position: {x: 192.27568, y: 0.000003299614, z: 2}
         rotation: {x: 0, y: 0, z: 0.005836506, w: 0.99998295}
         length: 272.33603
         parentId: 0
@@ -5743,14 +5743,14 @@ TextureImporter:
         guid: 866cb8f3ec9592e42a182ce033c5b6c5
         position: {x: 123.89717, y: -0.000011482517, z: 0}
         rotation: {x: 0, y: 0, z: 0.0008279212, w: 0.99999964}
-        length: 133.41713
+        length: 133.41695
         parentId: 0
         color:
           serializedVersion: 2
           rgba: 4278255615
       - name: Neck
         guid: dd59cc27db2824d4e84a7dea404970aa
-        position: {x: 133.41713, y: -0.0021639906, z: 0}
+        position: {x: 133.41695, y: -0.0023358224, z: 0}
         rotation: {x: 0, y: 0, z: 0.011069931, w: 0.9999387}
         length: 81.01867
         parentId: 1
@@ -6280,7 +6280,7 @@ TextureImporter:
       - name: Left Arm
         guid: 6341f6f3e9d8b4f25a5cf5bb4a7aa5ac
         position: {x: 127.260056, y: -0.0001741996, z: 0}
-        rotation: {x: 0, y: 0, z: -0.23034754, w: 0.9731085}
+        rotation: {x: 0, y: 0, z: -0.23034771, w: 0.9731085}
         length: 138.35925
         parentId: 0
         color:
@@ -9636,7 +9636,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones:
-      - name: Stari Teeth Top
+      - name: Teeth Top
         guid: ff92af2a08d2dd541bffd20ec38997ae
         position: {x: 85.99553, y: 48.31726, z: 0}
         rotation: {x: 0, y: 0, z: -0.70811296, w: 0.7060992}
@@ -9645,18 +9645,18 @@ TextureImporter:
         color:
           serializedVersion: 2
           rgba: 4278190335
-      - name: Stari Teeth MIddle
+      - name: Teeth MIddle
         guid: b4850473c93665441931c8f469d64d86
         position: {x: 6.3494873, y: 0.0000014552975, z: 0}
         rotation: {x: 0, y: 0, z: 0.005362765, w: 0.99998564}
-        length: 18.34718
+        length: 18.347158
         parentId: 0
         color:
           serializedVersion: 2
           rgba: 4278255615
-      - name: Stari Teeth Bottom
+      - name: Teeth Bottom
         guid: 95529d52b7007bb4b8d98a7c6e141ab7
-        position: {x: 18.347178, y: -0.00002751092, z: 0}
+        position: {x: 18.347157, y: -0.00002734564, z: 0}
         rotation: {x: 0, y: 0, z: -0.013317118, w: 0.99991137}
         length: 7.5892253
         parentId: 1
@@ -10311,7 +10311,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones:
-      - name: Stari Tongue1 Bottom
+      - name: Tongue1 Bottom
         guid: 3e32851054cc86945aa7c6e4c37de104
         position: {x: 88.22711, y: 0.9394531, z: 0}
         rotation: {x: 0, y: 0, z: 0.72373, w: 0.6900832}
@@ -10320,7 +10320,7 @@ TextureImporter:
         color:
           serializedVersion: 2
           rgba: 4278190335
-      - name: Stari Tongue1 Middle
+      - name: Tongue1 Middle
         guid: 376147306d018754eb460fda6d9b606d
         position: {x: 4.855886, y: -0.00000042661333, z: 0}
         rotation: {x: 0, y: 0, z: -0.025521746, w: 0.99967426}
@@ -10329,7 +10329,7 @@ TextureImporter:
         color:
           serializedVersion: 2
           rgba: 4278255615
-      - name: Starti Tongue1 Top
+      - name: Tongue1 Top
         guid: 86b7daea61dd4174c8edaaddae29bc3f
         position: {x: 66.752106, y: 0.00007645767, z: 0}
         rotation: {x: 0, y: 0, z: 0.020234667, w: 0.9997953}
@@ -10696,90 +10696,69 @@ TextureImporter:
       name: Stari Tongue Mask
       rect:
         serializedVersion: 2
-        x: 497
+        x: 496
         y: 1229
-        width: 444
+        width: 445
         height: 498
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 220, y: 247}
-        - {x: 92, y: 246}
-        - {x: 89, y: 239}
-        - {x: 83, y: 227}
-        - {x: 80, y: 218}
-        - {x: 77, y: 213}
-        - {x: 72, y: 206}
-        - {x: 65, y: 198}
-        - {x: 56, y: 191}
-        - {x: 49, y: 188}
-        - {x: 42, y: 187}
-        - {x: 33, y: 185}
-        - {x: 22, y: 183}
-        - {x: 12, y: 181}
-        - {x: 4, y: 181}
-        - {x: -2, y: 181}
-        - {x: -13, y: 182}
-        - {x: -20, y: 183}
-        - {x: -31, y: 184}
-        - {x: -38, y: 186}
-        - {x: -43, y: 188}
-        - {x: -48, y: 190}
-        - {x: -56, y: 193}
-        - {x: -62, y: 196}
-        - {x: -66, y: 199}
-        - {x: -71, y: 203}
-        - {x: -77, y: 208}
-        - {x: -84, y: 219}
-        - {x: -93, y: 234}
-        - {x: -95, y: 240}
-        - {x: -97, y: 247}
-        - {x: -220, y: 247}
-        - {x: -220, y: -247}
-        - {x: 220, y: -247}
+      outline: []
       physicsShape: []
-      tessellationDetail: 1
-      bones: []
+      tessellationDetail: 0
+      bones:
+      - name: Tongue mask
+        guid: 09113d110abc7cf4b8d0c3c53708378c
+        position: {x: 219.18616, y: 424.32776, z: 0}
+        rotation: {x: 0, y: 0, z: -0.7078279, w: 0.7063849}
+        length: 424.6352
+        parentId: -1
+        color:
+          serializedVersion: 2
+          rgba: 4278190335
       spriteID: 82eb84c786fca9d4b8de9d0d0ab9796f
       internalID: -1018961841
       vertices:
-      - {x: 313.17212, y: 0.20335388}
-      - {x: 375.34464, y: 0.29696655}
-      - {x: 437.36554, y: 1.1657867}
-      - {x: 444.62177, y: 2.8361816}
-      - {x: 444.62177, y: 65.008896}
-      - {x: 444.62177, y: 127.18425}
-      - {x: 444.62177, y: 189.35695}
-      - {x: 444.61914, y: 251.52702}
-      - {x: 444.6165, y: 313.7024}
-      - {x: 444.54004, y: 375.87378}
-      - {x: 443.81754, y: 438.0188}
-      - {x: 441.3997, y: 478.7716}
-      - {x: 359.48346, y: 477.883}
-      - {x: 309.28033, y: 475.266}
-      - {x: 266.37827, y: 440.89426}
-      - {x: 211.8193, y: 433.4835}
-      - {x: 156.99268, y: 449.589}
-      - {x: 120.87754, y: 478.7716}
-      - {x: 48.175293, y: 478.10184}
-      - {x: 0.33598328, y: 476.05835}
-      - {x: 0.33598328, y: 400.70038}
-      - {x: 0.33598328, y: 338.529}
-      - {x: 0.33598328, y: 276.35367}
-      - {x: 0.33862305, y: 214.1836}
-      - {x: 0.33862305, y: 152.01088}
-      - {x: 0.3728943, y: 89.835526}
-      - {x: 0.69721985, y: 27.67073}
-      - {x: 1.5752411, y: 1.5982208}
-      - {x: 64.48868, y: 0.4868164}
-      - {x: 126.65723, y: 0.24028015}
-      - {x: 188.82974, y: 0.20335388}
-      - {x: 251.00093, y: 0.19940186}
-      indices: 000000000500000001000000000000000600000005000000000000001f00000006000000010000000400000002000000010000000500000004000000020000000400000003000000060000000f00000007000000060000001f0000000f000000070000000e00000008000000070000000f0000000e000000080000000e00000009000000090000000c0000000a000000090000000e0000000c0000000a0000000c0000000b0000000c0000000e0000000d0000000f00000016000000100000000f00000017000000160000000f0000001e000000170000000f0000001f0000001e000000100000001400000011000000100000001500000014000000100000001600000015000000110000001400000012000000120000001400000013000000170000001e00000018000000180000001d00000019000000180000001e0000001d000000190000001c0000001a000000190000001d0000001c0000001a0000001c0000001b000000
+      - {x: 368.39755, y: 0.09820557}
+      - {x: 430.3723, y: 0.21292114}
+      - {x: 444.66464, y: 0.4713287}
+      - {x: 445.22366, y: 1.5339508}
+      - {x: 445.5453, y: 63.381012}
+      - {x: 445.59274, y: 125.3586}
+      - {x: 445.59674, y: 187.33618}
+      - {x: 445.59674, y: 249.31116}
+      - {x: 445.59674, y: 311.2874}
+      - {x: 445.59674, y: 373.26498}
+      - {x: 445.5822, y: 435.2439}
+      - {x: 445.5229, y: 497.18854}
+      - {x: 313.822, y: 497.1545}
+      - {x: 271.41486, y: 437.0342}
+      - {x: 228.61314, y: 430.0815}
+      - {x: 182.26872, y: 435.7307}
+      - {x: 126.002884, y: 496.64725}
+      - {x: 0, y: 496.7228}
+      - {x: 0.25888062, y: 475.04486}
+      - {x: 0.037399292, y: 376.17072}
+      - {x: 0.003112793, y: 314.19446}
+      - {x: -0.0021514893, y: 252.21687}
+      - {x: -0.0021514893, y: 190.2406}
+      - {x: 0.00048828125, y: 128.26302}
+      - {x: 0.04663086, y: 66.28543}
+      - {x: 0.28788757, y: 4.4040833}
+      - {x: 3.1513672, y: 0.08503723}
+      - {x: 120.497215, y: 0.08503723}
+      - {x: 182.4733, y: 0.08503723}
+      - {x: 244.44804, y: 0.08503723}
+      - {x: 306.4228, y: 0.08503723}
+      - {x: 221.7899, y: 222.205}
+      - {x: 136.29292, y: 472.84244}
+      - {x: 153.97284, y: 448.83264}
+      - {x: 287.20563, y: 444.86404}
+      - {x: 302.08643, y: 464.9871}
+      indices: 0000000004000000010000000f00000014000000210000001000000012000000110000001000000020000000120000001200000020000000130000001300000021000000140000001300000020000000210000000f0000001f00000014000000140000001f00000015000000160000001f00000017000000170000001b00000018000000170000001f0000001b000000180000001a00000019000000180000001b0000001a0000001b0000001f0000001c000000150000001f000000160000001c0000001f0000001d0000000e0000001f0000000f0000000a000000230000000c000000000000000500000004000000000000001e00000005000000010000000300000002000000010000000400000003000000050000001f00000006000000050000001e0000001f0000000d0000001f0000000e000000060000001f00000007000000080000002200000009000000080000001f0000000d000000080000000d0000002200000009000000230000000a0000000900000022000000230000000a0000000c0000000b000000070000001f000000080000001d0000001f0000001e000000
       edges:
       - {x: 0, y: 1}
-      - {x: 0, y: 31}
+      - {x: 0, y: 30}
       - {x: 1, y: 2}
       - {x: 2, y: 3}
       - {x: 3, y: 4}
@@ -10791,11 +10770,13 @@ TextureImporter:
       - {x: 9, y: 10}
       - {x: 10, y: 11}
       - {x: 11, y: 12}
-      - {x: 12, y: 13}
+      - {x: 12, y: 35}
       - {x: 13, y: 14}
+      - {x: 13, y: 34}
       - {x: 14, y: 15}
-      - {x: 15, y: 16}
+      - {x: 15, y: 33}
       - {x: 16, y: 17}
+      - {x: 16, y: 32}
       - {x: 17, y: 18}
       - {x: 18, y: 19}
       - {x: 19, y: 20}
@@ -10809,9 +10790,10 @@ TextureImporter:
       - {x: 27, y: 28}
       - {x: 28, y: 29}
       - {x: 29, y: 30}
-      - {x: 30, y: 31}
+      - {x: 32, y: 33}
+      - {x: 34, y: 35}
       weights:
-      - weight[0]: 0
+      - weight[0]: 1
         weight[1]: 0
         weight[2]: 0
         weight[3]: 0
@@ -10819,7 +10801,7 @@ TextureImporter:
         boneIndex[1]: 0
         boneIndex[2]: 0
         boneIndex[3]: 0
-      - weight[0]: 0
+      - weight[0]: 1
         weight[1]: 0
         weight[2]: 0
         weight[3]: 0
@@ -10827,7 +10809,7 @@ TextureImporter:
         boneIndex[1]: 0
         boneIndex[2]: 0
         boneIndex[3]: 0
-      - weight[0]: 0
+      - weight[0]: 1
         weight[1]: 0
         weight[2]: 0
         weight[3]: 0
@@ -10835,7 +10817,7 @@ TextureImporter:
         boneIndex[1]: 0
         boneIndex[2]: 0
         boneIndex[3]: 0
-      - weight[0]: 0
+      - weight[0]: 1
         weight[1]: 0
         weight[2]: 0
         weight[3]: 0
@@ -10843,7 +10825,7 @@ TextureImporter:
         boneIndex[1]: 0
         boneIndex[2]: 0
         boneIndex[3]: 0
-      - weight[0]: 0
+      - weight[0]: 1
         weight[1]: 0
         weight[2]: 0
         weight[3]: 0
@@ -10851,7 +10833,7 @@ TextureImporter:
         boneIndex[1]: 0
         boneIndex[2]: 0
         boneIndex[3]: 0
-      - weight[0]: 0
+      - weight[0]: 1
         weight[1]: 0
         weight[2]: 0
         weight[3]: 0
@@ -10859,7 +10841,7 @@ TextureImporter:
         boneIndex[1]: 0
         boneIndex[2]: 0
         boneIndex[3]: 0
-      - weight[0]: 0
+      - weight[0]: 1
         weight[1]: 0
         weight[2]: 0
         weight[3]: 0
@@ -10867,7 +10849,7 @@ TextureImporter:
         boneIndex[1]: 0
         boneIndex[2]: 0
         boneIndex[3]: 0
-      - weight[0]: 0
+      - weight[0]: 1
         weight[1]: 0
         weight[2]: 0
         weight[3]: 0
@@ -10875,7 +10857,7 @@ TextureImporter:
         boneIndex[1]: 0
         boneIndex[2]: 0
         boneIndex[3]: 0
-      - weight[0]: 0
+      - weight[0]: 1
         weight[1]: 0
         weight[2]: 0
         weight[3]: 0
@@ -10883,7 +10865,7 @@ TextureImporter:
         boneIndex[1]: 0
         boneIndex[2]: 0
         boneIndex[3]: 0
-      - weight[0]: 0
+      - weight[0]: 1
         weight[1]: 0
         weight[2]: 0
         weight[3]: 0
@@ -10891,7 +10873,7 @@ TextureImporter:
         boneIndex[1]: 0
         boneIndex[2]: 0
         boneIndex[3]: 0
-      - weight[0]: 0
+      - weight[0]: 1
         weight[1]: 0
         weight[2]: 0
         weight[3]: 0
@@ -10899,7 +10881,7 @@ TextureImporter:
         boneIndex[1]: 0
         boneIndex[2]: 0
         boneIndex[3]: 0
-      - weight[0]: 0
+      - weight[0]: 1
         weight[1]: 0
         weight[2]: 0
         weight[3]: 0
@@ -10907,7 +10889,7 @@ TextureImporter:
         boneIndex[1]: 0
         boneIndex[2]: 0
         boneIndex[3]: 0
-      - weight[0]: 0
+      - weight[0]: 1
         weight[1]: 0
         weight[2]: 0
         weight[3]: 0
@@ -10915,7 +10897,7 @@ TextureImporter:
         boneIndex[1]: 0
         boneIndex[2]: 0
         boneIndex[3]: 0
-      - weight[0]: 0
+      - weight[0]: 1
         weight[1]: 0
         weight[2]: 0
         weight[3]: 0
@@ -10923,7 +10905,7 @@ TextureImporter:
         boneIndex[1]: 0
         boneIndex[2]: 0
         boneIndex[3]: 0
-      - weight[0]: 0
+      - weight[0]: 1
         weight[1]: 0
         weight[2]: 0
         weight[3]: 0
@@ -10931,7 +10913,7 @@ TextureImporter:
         boneIndex[1]: 0
         boneIndex[2]: 0
         boneIndex[3]: 0
-      - weight[0]: 0
+      - weight[0]: 1
         weight[1]: 0
         weight[2]: 0
         weight[3]: 0
@@ -10939,7 +10921,7 @@ TextureImporter:
         boneIndex[1]: 0
         boneIndex[2]: 0
         boneIndex[3]: 0
-      - weight[0]: 0
+      - weight[0]: 1
         weight[1]: 0
         weight[2]: 0
         weight[3]: 0
@@ -10947,7 +10929,7 @@ TextureImporter:
         boneIndex[1]: 0
         boneIndex[2]: 0
         boneIndex[3]: 0
-      - weight[0]: 0
+      - weight[0]: 1
         weight[1]: 0
         weight[2]: 0
         weight[3]: 0
@@ -10955,7 +10937,7 @@ TextureImporter:
         boneIndex[1]: 0
         boneIndex[2]: 0
         boneIndex[3]: 0
-      - weight[0]: 0
+      - weight[0]: 1
         weight[1]: 0
         weight[2]: 0
         weight[3]: 0
@@ -10963,7 +10945,7 @@ TextureImporter:
         boneIndex[1]: 0
         boneIndex[2]: 0
         boneIndex[3]: 0
-      - weight[0]: 0
+      - weight[0]: 1
         weight[1]: 0
         weight[2]: 0
         weight[3]: 0
@@ -10971,7 +10953,7 @@ TextureImporter:
         boneIndex[1]: 0
         boneIndex[2]: 0
         boneIndex[3]: 0
-      - weight[0]: 0
+      - weight[0]: 1
         weight[1]: 0
         weight[2]: 0
         weight[3]: 0
@@ -10979,7 +10961,7 @@ TextureImporter:
         boneIndex[1]: 0
         boneIndex[2]: 0
         boneIndex[3]: 0
-      - weight[0]: 0
+      - weight[0]: 1
         weight[1]: 0
         weight[2]: 0
         weight[3]: 0
@@ -10987,7 +10969,7 @@ TextureImporter:
         boneIndex[1]: 0
         boneIndex[2]: 0
         boneIndex[3]: 0
-      - weight[0]: 0
+      - weight[0]: 1
         weight[1]: 0
         weight[2]: 0
         weight[3]: 0
@@ -10995,7 +10977,7 @@ TextureImporter:
         boneIndex[1]: 0
         boneIndex[2]: 0
         boneIndex[3]: 0
-      - weight[0]: 0
+      - weight[0]: 1
         weight[1]: 0
         weight[2]: 0
         weight[3]: 0
@@ -11003,7 +10985,7 @@ TextureImporter:
         boneIndex[1]: 0
         boneIndex[2]: 0
         boneIndex[3]: 0
-      - weight[0]: 0
+      - weight[0]: 1
         weight[1]: 0
         weight[2]: 0
         weight[3]: 0
@@ -11011,7 +10993,7 @@ TextureImporter:
         boneIndex[1]: 0
         boneIndex[2]: 0
         boneIndex[3]: 0
-      - weight[0]: 0
+      - weight[0]: 1
         weight[1]: 0
         weight[2]: 0
         weight[3]: 0
@@ -11019,7 +11001,7 @@ TextureImporter:
         boneIndex[1]: 0
         boneIndex[2]: 0
         boneIndex[3]: 0
-      - weight[0]: 0
+      - weight[0]: 1
         weight[1]: 0
         weight[2]: 0
         weight[3]: 0
@@ -11027,7 +11009,7 @@ TextureImporter:
         boneIndex[1]: 0
         boneIndex[2]: 0
         boneIndex[3]: 0
-      - weight[0]: 0
+      - weight[0]: 1
         weight[1]: 0
         weight[2]: 0
         weight[3]: 0
@@ -11035,7 +11017,7 @@ TextureImporter:
         boneIndex[1]: 0
         boneIndex[2]: 0
         boneIndex[3]: 0
-      - weight[0]: 0
+      - weight[0]: 1
         weight[1]: 0
         weight[2]: 0
         weight[3]: 0
@@ -11043,7 +11025,7 @@ TextureImporter:
         boneIndex[1]: 0
         boneIndex[2]: 0
         boneIndex[3]: 0
-      - weight[0]: 0
+      - weight[0]: 1
         weight[1]: 0
         weight[2]: 0
         weight[3]: 0
@@ -11051,7 +11033,7 @@ TextureImporter:
         boneIndex[1]: 0
         boneIndex[2]: 0
         boneIndex[3]: 0
-      - weight[0]: 0
+      - weight[0]: 1
         weight[1]: 0
         weight[2]: 0
         weight[3]: 0
@@ -11059,7 +11041,39 @@ TextureImporter:
         boneIndex[1]: 0
         boneIndex[2]: 0
         boneIndex[3]: 0
-      - weight[0]: 0
+      - weight[0]: 1
+        weight[1]: 0
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 0
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+      - weight[0]: 1
+        weight[1]: 0
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 0
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+      - weight[0]: 1
+        weight[1]: 0
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 0
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+      - weight[0]: 1
+        weight[1]: 0
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 0
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+      - weight[0]: 1
         weight[1]: 0
         weight[2]: 0
         weight[3]: 0
@@ -11082,56 +11096,56 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones:
-      - name: Stari TongueFront2 Bottom
+      - name: TongueFront2 Bottom
         guid: 2da39dfe84f67814c970b73170648ba7
         position: {x: 101.517715, y: 4.7860107, z: 0}
         rotation: {x: 0, y: 0, z: 0.7141073, w: 0.7000363}
-        length: 33.09097
+        length: 33.090927
         parentId: -1
         color:
           serializedVersion: 2
           rgba: 4278190335
-      - name: Stari TongueFront2 Middle 1
+      - name: TongueFront2 Middle 1
         guid: ab91bf6cce98edd40876d26a26347dba
-        position: {x: 33.29133, y: 0.00003378909, z: 0}
-        rotation: {x: 0, y: 0, z: 0.006530477, w: 0.99997866}
-        length: 84.69269
+        position: {x: 33.291393, y: 0.000033523123, z: 0}
+        rotation: {x: 0, y: 0, z: 0.0065304777, w: 0.99997866}
+        length: 84.69283
         parentId: 5
         color:
           serializedVersion: 2
           rgba: 4278255615
-      - name: Stari TongueFront2 Middle 2
+      - name: TongueFront2 Middle 2
         guid: 0298b0db45ed35246b9fca636366b454
-        position: {x: 84.692696, y: 0.00013908155, z: 0}
-        rotation: {x: 0, y: 0, z: -0.009480707, w: 0.99995506}
-        length: 91.462364
+        position: {x: 84.69284, y: 0.00011176779, z: 0}
+        rotation: {x: 0, y: 0, z: -0.009482279, w: 0.99995506}
+        length: 91.46242
         parentId: 1
         color:
           serializedVersion: 2
           rgba: 4278255360
-      - name: Stari TongueFront2 Middle 1Stari TongueFront2 Middle 3
+      - name: TongueFront2 Middle 3
         guid: 4703b90ff8690a647aa9c39281989418
-        position: {x: 91.462364, y: -0.00022507083, z: 0}
-        rotation: {x: 0, y: 0, z: 0.026513718, w: 0.99964845}
-        length: 71.20131
+        position: {x: 91.462425, y: 0.000009096554, z: 0}
+        rotation: {x: 0, y: 0, z: 0.026514843, w: 0.99964845}
+        length: 71.20124
         parentId: 2
         color:
           serializedVersion: 2
           rgba: 4294967040
-      - name: Stari TongueFront2 Top
+      - name: TongueFront2 Top
         guid: 4e048ddb1f86f3c4ba2a07d5025511b3
-        position: {x: 71.201294, y: 0.000041873434, z: 0}
-        rotation: {x: 0, y: 0, z: -0.026231382, w: 0.99965596}
+        position: {x: 71.20123, y: 0.00005538804, z: 0}
+        rotation: {x: 0, y: 0, z: -0.02623127, w: 0.9996559}
         length: 83.10065
         parentId: 3
         color:
           serializedVersion: 2
           rgba: 4294901760
-      - name: Stari TongueFront2 Bottom Lock
+      - name: TongueFront2 Bottom Lock
         guid: 10eab66d01666624f8145588d7a6525d
-        position: {x: 33.090973, y: -0.0000000716083, z: 0}
+        position: {x: 33.09093, y: 0.0000007633625, z: 0}
         rotation: {x: 0, y: 0, z: -0.0041396148, w: 0.9999914}
-        length: 33.291325
+        length: 33.29139
         parentId: 0
         color:
           serializedVersion: 2
@@ -11496,8 +11510,8 @@ TextureImporter:
         boneIndex[1]: 1
         boneIndex[2]: 0
         boneIndex[3]: 0
-      - weight[0]: 0.47493136
-        weight[1]: 0.39246538
+      - weight[0]: 0.4749314
+        weight[1]: 0.3924654
         weight[2]: 0.13260323
         weight[3]: 0
         boneIndex[0]: 5
@@ -12815,47 +12829,47 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones:
-      - name: Stari TongueFront1 Origin
+      - name: TongueFront1 Origin
         guid: a5702eb6e20bca44da304d97fa8756c3
         position: {x: 3.7562866, y: 129.47192, z: 0}
-        rotation: {x: 0, y: 0, z: 0.33618876, w: 0.94179463}
+        rotation: {x: 0, y: 0, z: 0.33618885, w: 0.94179463}
         length: 75.16131
         parentId: -1
         color:
           serializedVersion: 2
           rgba: 4278190335
-      - name: Starii TongueFront1 Middle
+      - name: TongueFront1 Middle
         guid: 53049449cde4298419575efd4680c45b
-        position: {x: 11.754713, y: 0.00000206905, z: 0}
-        rotation: {x: 0, y: 0, z: -0.1483888, w: 0.9889291}
-        length: 81.042984
+        position: {x: 11.754664, y: -0.0000056798754, z: 0}
+        rotation: {x: 0, y: 0, z: -0.14838833, w: 0.9889292}
+        length: 81.04295
         parentId: 4
         color:
           serializedVersion: 2
           rgba: 4278255615
-      - name: Starii TongueFront1 Peak
+      - name: TongueFront1 Peak
         guid: 41d6b5424e54cc642a489b4bfbe021da
-        position: {x: 81.042984, y: 0.000016369991, z: 0}
-        rotation: {x: 0, y: 0, z: -0.25953248, w: 0.9657344}
-        length: 86.08791
+        position: {x: 81.042946, y: -0.000016670103, z: 0}
+        rotation: {x: 0, y: 0, z: -0.25953245, w: 0.9657344}
+        length: 86.08793
         parentId: 1
         color:
           serializedVersion: 2
           rgba: 4278255360
-      - name: Starii TongueFront1 Bottom
+      - name: TongueFront1 Bottom
         guid: ff7af49998c1a0249a3c5a6eb8f69615
-        position: {x: 86.08791, y: 0.000008497081, z: 0}
-        rotation: {x: 0, y: 0, z: -0.014740865, w: 0.99989134}
+        position: {x: 86.08793, y: 0.000017441449, z: 0}
+        rotation: {x: 0, y: 0, z: -0.014741004, w: 0.9998914}
         length: 8.465953
         parentId: 2
         color:
           serializedVersion: 2
           rgba: 4294967040
-      - name: Stari TongueFront1 Top
+      - name: TongueFront1 Top
         guid: 2203af7664562b046bd52ff8ced52931
-        position: {x: 75.1613, y: -0.0000043906525, z: 0}
-        rotation: {x: 0, y: 0, z: -0.69020045, w: 0.7236183}
-        length: 11.754712
+        position: {x: 75.16131, y: -0.000016482201, z: 0}
+        rotation: {x: 0, y: 0, z: -0.6902009, w: 0.72361785}
+        length: 11.754682
         parentId: 0
         color:
           serializedVersion: 2
@@ -12909,7 +12923,7 @@ TextureImporter:
       - {x: 101.7281, y: 138.22177}
       - {x: 63.246475, y: 74.44449}
       - {x: 120.8344, y: 83.324844}
-      indices: 000000001f00000001000000110000002900000012000000110000002800000029000000120000001b0000001300000012000000290000001b000000130000001c00000014000000130000002c0000001c000000130000001b0000002c000000140000001c00000015000000150000001d00000016000000150000001c0000001d000000160000001d00000017000000170000001e00000018000000170000002c0000001e000000100000002700000028000000170000001d0000002c0000001b00000029000000280000001b000000280000002a0000001b0000002a0000002c0000001c0000002c0000001d0000001e0000002c0000002d0000001f0000002d00000020000000200000002d00000021000000220000002d00000023000000230000002b00000024000000230000002d0000002b000000240000002b00000025000000260000002b0000002a000000270000002a00000028000000180000001e000000190000002a0000002b0000002c0000001000000028000000110000000e000000260000002a000000000000001a0000001900000000000000190000001e000000000000002d0000001f000000000000001e0000002d000000010000001f00000002000000020000001f00000003000000030000002000000004000000030000001f00000020000000040000002100000005000000040000002000000021000000050000002100000006000000060000002200000007000000060000002d000000220000000f000000270000001000000006000000210000002d00000008000000230000000900000008000000220000002300000009000000240000000a0000000900000023000000240000000a000000240000000b0000000b000000250000000c0000000b00000024000000250000000c000000260000000d0000000c0000002b000000260000000c000000250000002b0000000d000000260000000e0000000e000000270000000f0000000e0000002a000000270000000700000022000000080000002b0000002d0000002c000000
+      indices: 000000001f00000001000000000000001a0000001900000000000000190000001e000000000000002d0000001f000000000000001e0000002d000000010000001f00000002000000020000001f00000003000000030000002000000004000000030000001f00000020000000040000002100000005000000040000002000000021000000050000002100000006000000060000002200000007000000060000002d0000002200000006000000210000002d00000007000000220000000800000008000000230000000900000008000000220000002300000009000000240000000a0000000900000023000000240000000a000000240000000b0000000b000000250000000c0000000b00000024000000250000000c000000260000000d0000000c0000002b000000260000000c000000250000002b0000000d000000260000000e0000000e000000270000000f0000000e0000002a000000270000000e000000260000002a0000000f0000002700000010000000100000002800000011000000100000002700000028000000110000002900000012000000110000002800000029000000120000001b0000001300000012000000290000001b000000130000001c00000014000000130000002c0000001c000000130000001b0000002c000000140000001c00000015000000150000001d00000016000000150000001c0000001d000000160000001d00000017000000170000001e00000018000000170000002c0000001e000000170000001d0000002c000000180000001e000000190000001b00000029000000280000001b000000280000002a0000001b0000002a0000002c0000001c0000002c0000001d0000001e0000002c0000002d0000001f0000002d00000020000000200000002d00000021000000220000002d00000023000000230000002b00000024000000230000002d0000002b000000240000002b00000025000000260000002b0000002a000000270000002a000000280000002a0000002b0000002c0000002b0000002d0000002c000000
       edges:
       - {x: 0, y: 1}
       - {x: 0, y: 26}
@@ -12979,9 +12993,9 @@ TextureImporter:
         boneIndex[1]: 1
         boneIndex[2]: 2
         boneIndex[3]: 0
-      - weight[0]: 0.47936612
-        weight[1]: 0.4710959
-        weight[2]: 0.04953796
+      - weight[0]: 0.47936618
+        weight[1]: 0.47109595
+        weight[2]: 0.049537968
         weight[3]: 0
         boneIndex[0]: 1
         boneIndex[1]: 2
@@ -13003,24 +13017,24 @@ TextureImporter:
         boneIndex[1]: 2
         boneIndex[2]: 4
         boneIndex[3]: 0
-      - weight[0]: 0.82
-        weight[1]: 0.11571428
-        weight[2]: 0.06428572
+      - weight[0]: 0.79218096
+        weight[1]: 0.1457143
+        weight[2]: 0.06210478
         weight[3]: 0
         boneIndex[0]: 1
         boneIndex[1]: 4
         boneIndex[2]: 2
         boneIndex[3]: 0
-      - weight[0]: 0.7
-        weight[1]: 0.3
+      - weight[0]: 0.77
+        weight[1]: 0.23000002
         weight[2]: 0
         weight[3]: 0
         boneIndex[0]: 1
         boneIndex[1]: 4
         boneIndex[2]: 0
         boneIndex[3]: 0
-      - weight[0]: 0.6
-        weight[1]: 0.4
+      - weight[0]: 0.65000004
+        weight[1]: 0.34999996
         weight[2]: 0
         weight[3]: 0
         boneIndex[0]: 1
@@ -13203,9 +13217,9 @@ TextureImporter:
         boneIndex[1]: 1
         boneIndex[2]: 0
         boneIndex[3]: 0
-      - weight[0]: 0.48
-        weight[1]: 0.4565853
-        weight[2]: 0.06341463
+      - weight[0]: 0.48000005
+        weight[1]: 0.45658535
+        weight[2]: 0.06341464
         weight[3]: 0
         boneIndex[0]: 1
         boneIndex[1]: 2
@@ -13227,16 +13241,16 @@ TextureImporter:
         boneIndex[1]: 4
         boneIndex[2]: 0
         boneIndex[3]: 0
-      - weight[0]: 0.7
-        weight[1]: 0.3
+      - weight[0]: 0.75
+        weight[1]: 0.25
         weight[2]: 0
         weight[3]: 0
         boneIndex[0]: 1
         boneIndex[1]: 4
         boneIndex[2]: 0
         boneIndex[3]: 0
-      - weight[0]: 0.5
-        weight[1]: 0.5
+      - weight[0]: 0.55
+        weight[1]: 0.45
         weight[2]: 0
         weight[3]: 0
         boneIndex[0]: 1
@@ -13322,28 +13336,28 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones:
-      - name: Stari TongueBack Bottom
+      - name: TongueBack Bottom
         guid: 1e1462c3740a57f4bb6e95c2cc15d803
         position: {x: 93.54562, y: 2.1976318, z: 0}
         rotation: {x: 0, y: 0, z: 0.7195797, w: 0.69440985}
-        length: 5.7991586
+        length: 5.799164
         parentId: -1
         color:
           serializedVersion: 2
           rgba: 4278190335
-      - name: Stari TongueBack Middle
+      - name: TongueBack Middle
         guid: 3860026057add2848b267c4d3924224a
-        position: {x: 5.799159, y: 0.0000012470496, z: 0}
-        rotation: {x: 0, y: 0, z: -0.013246738, w: 0.99991226}
-        length: 125.30336
+        position: {x: 5.7991643, y: 0.0000010603729, z: 0}
+        rotation: {x: 0, y: 0, z: -0.013246739, w: 0.99991226}
+        length: 125.30348
         parentId: 0
         color:
           serializedVersion: 2
           rgba: 4278255615
-      - name: Stari TongueBack Top
+      - name: TongueBack Top
         guid: f7b074f5962819e47acc7fecfcd39d35
-        position: {x: 125.30336, y: -0.000039792194, z: 0}
-        rotation: {x: 0, y: 0, z: 0.00709059, w: 0.99997485}
+        position: {x: 125.303474, y: -0.00010931684, z: 0}
+        rotation: {x: 0, y: 0, z: 0.007090591, w: 0.99997485}
         length: 6.811052
         parentId: 1
         color:
