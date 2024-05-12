@@ -339,7 +339,7 @@ GameObject:
   - component: {fileID: 6840443026770468932}
   - component: {fileID: 1458465732688652204}
   m_Layer: 0
-  m_Name: Stari Unified
+  m_Name: Game_Stari 001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
