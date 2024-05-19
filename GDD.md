@@ -1,4 +1,5 @@
 # GDD
+
 > *This resource was directly extracted from the article [Game Design Document Template and Examples](https://www.nuclino.com/articles/game-design-document-template) from Nuclino. My intention is to recollect useful information in this text.*
 
 ## What is a GDD?
@@ -23,3 +24,7 @@ Modern game design documentation process follows several best practices:
 - Write the GDD collaboratively. Unless you are an indie game developer working solo, involve your team in the process from the start. Make your GDD the central hub where your team members discover, discuss, and solve issues together.
 - The GDD should evolve together with the project. A GDD is only useful when it's up-to-date. Choose a documentation tool that preserves a version history and let your design document evolve together with your game by updating it daily.
 - Use visual aids. Don't let your readers drown in text. Many ideas can be much more clearly conveyed using graphs, flow charts, and concept art. Or turn your entire game design doc into a mind map and watch it grow as your game evolves.
+---
+[Alva Majo (2024). Cómo hacer un game design document (GDD). *(Video)*](https://youtu.be/ZKo4uRTxdCA?si=ryswtpOCoGkfoSAM)
+
+[German Coronel (2023). Haciendo el Documento De Diseño de mi juego. *(Video)*](https://youtu.be/25DXFIqee2s?si=AykRxVYNVw6j2Th5)
