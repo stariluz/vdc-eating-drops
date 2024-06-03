@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
@@ -13,18 +14,17 @@ public class DropSpawner : MonoBehaviour
     private Coroutine currentCoroutine;
     private float totalEdiblesProbability = 1f;
     private float totalNastysProbability = 1f;
+    private List<DropLogic> currentDrops = new();
     // Start is called before the first frame update
-    void Start()
+    void StartGamePlay()
     {
         currentCoroutine = StartCoroutine(SpawnObject());
         totalEdiblesProbability = CalcTotalDropsProbability(ediblesPrefabs);
         totalNastysProbability = CalcTotalDropsProbability(nastysPrefabs);
     }
-
-    // Update is called once per frame
-    void Update()
+    void Stop()
     {
-
+        StopCoroutine(currentCoroutine);
     }
     private IEnumerator SpawnObject()
     {
@@ -35,7 +35,7 @@ public class DropSpawner : MonoBehaviour
             DropLogic dropToSpawn = ChooseRandomDrop();
 
             // Instantiate the prefab at the calculated position
-            Instantiate(dropToSpawn, new Vector3(randomX, gameObject.transform.position.y, 0), Quaternion.identity);
+            RegisterDrop(Instantiate(dropToSpawn, new Vector3(randomX, gameObject.transform.position.y, 0), Quaternion.identity));
 
 
             // Wait for the specified interval before spawning the next object
@@ -66,11 +66,11 @@ public class DropSpawner : MonoBehaviour
         float currentRange = 0f;
         DropLogic randomDrop = drops[^1];
         float randomProbability = Random.Range(0f, totalProbability);
-        for(int i=1; i<drops.Length; i++)
+        for (int i = 1; i < drops.Length; i++)
         {
             if (randomProbability < currentRange)
             {
-                randomDrop=drops[i];
+                randomDrop = drops[i];
                 break;
             }
             else
@@ -89,5 +89,14 @@ public class DropSpawner : MonoBehaviour
             probability += drop.probability;
         }
         return probability;
+    }
+    public void RegisterDrop(DropLogic drop)
+    {
+        currentDrops.Append(drop);
+    }
+    public void UnregisterDrop(DropLogic drop)
+    {
+        drop.GetComponentInParent<DropBehavior>().Destroy();
+        currentDrops.Remove(drop);
     }
 }
