@@ -1,15 +1,16 @@
 ﻿using UnityEngine;
 using System.Collections;
+using Stariluz.GameLoop;
 
-public class AudioManager : MonoBehaviour
+public class AudioManager : MonoBehaviour, IGameElement
 {
     [Header("Audio Sources")]
     [SerializeField] AudioSource musicSource;
     [SerializeField] AudioSource sfxSource;
 
     [Header("Music Clips")]
-    public AudioClip background1;
-    public AudioClip background2;
+    public AudioClip startGameBackground;
+    public AudioClip gameplayBackground;
 
     [Header("SFX Clips")]
     public AudioClip winSound;
@@ -17,7 +18,13 @@ public class AudioManager : MonoBehaviour
     public AudioClip scoreSound;
 
     void Start(){
-        musicSource.clip=background1;
+        musicSource.clip=startGameBackground;
+        musicSource.Play();
+        musicSource.loop=true;
+    }
+    public void StartGamePlay()
+    {
+        musicSource.clip=gameplayBackground;
         musicSource.Play();
         musicSource.loop=true;
     }
@@ -38,21 +45,29 @@ public class AudioManager : MonoBehaviour
     }
     float savedTime=0.0f;
     float savedPauseTime=0.0f;
-    public void OnPause(){
-        musicSource.Pause();
-        savedTime=musicSource.time;
-
-        musicSource.clip=background2;
-        musicSource.time=savedPauseTime;
-        musicSource.Play();
-    }
-    public void OnResume(){
+    public void Pause()
+    {
         musicSource.Pause();
         savedPauseTime=musicSource.time;
 
-        musicSource.clip=background1;
+        musicSource.clip=startGameBackground;
         musicSource.time=savedTime;
         musicSource.Play();
+    }
+
+    public void Resume()
+    {
+        musicSource.Pause();
+        savedTime=musicSource.time;
+
+        musicSource.clip=gameplayBackground;
+        musicSource.time=savedPauseTime;
+        musicSource.Play();
+    }
+
+    public void StopGamePlay()
+    {
+        throw new System.NotImplementedException();
     }
 }
 

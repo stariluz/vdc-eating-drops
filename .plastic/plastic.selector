@@ -1,4 +1,0 @@
-repository "UACH Eating Drops A@a359834@cloud"
-  path "/"
-    br "/main"
-    co "/main"

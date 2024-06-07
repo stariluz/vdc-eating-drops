@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 6235313731905693505}
   - component: {fileID: 1668658180689873029}
   - component: {fileID: 3155652913169955597}
-  - component: {fileID: 9102918695337912090}
+  - component: {fileID: 859879470342424424}
   m_Layer: 0
   m_Name: Trash
   m_TagString: Nasty
@@ -127,8 +127,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c60eceb092587435aab42fd83953262f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  score: 100
+  probability: 0.2
   speed: 10
---- !u!114 &9102918695337912090
+--- !u!114 &859879470342424424
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -137,11 +139,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 8927361781755587641}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ad3a4aaed2e064afa9bde6e0a4bcdc41, type: 3}
+  m_Script: {fileID: 11500000, guid: c60eceb092587435aab42fd83953262f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   score: 100
   probability: 0.2
+  speed: 10
 --- !u!1001 &7629413085136554528
 PrefabInstance:
   m_ObjectHideFlags: 0

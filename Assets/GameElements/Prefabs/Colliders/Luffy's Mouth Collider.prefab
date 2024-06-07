@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4957187885614250383}
   - component: {fileID: -3389700641234807670}
+  - component: {fileID: 4878199852089622084}
   m_Layer: 0
   m_Name: Luffy's Mouth Collider
   m_TagString: Mouth
@@ -77,3 +78,15 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &4878199852089622084
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5698825269905479959}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22c10456f2a45d145b90df1a6fa0fefa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

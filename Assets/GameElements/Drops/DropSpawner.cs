@@ -2,27 +2,28 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using Stariluz.GameLoop;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
-public class DropSpawner : MonoBehaviour
+public class DropSpawner : MonoBehaviour, IGameElement
 {
-    public DropLogic[] ediblesPrefabs;
-    public DropLogic[] nastysPrefabs;
+    public DropController[] ediblesPrefabs;
+    public DropController[] nastysPrefabs;
     public float spawnInterval = 2f;
     public float screenLimits = 1f;
     private Coroutine currentCoroutine;
     private float totalEdiblesProbability = 1f;
     private float totalNastysProbability = 1f;
-    private List<DropLogic> currentDrops = new();
+    private List<DropController> currentDrops = new();
     // Start is called before the first frame update
-    void StartGamePlay()
+    public void StartGamePlay()
     {
         currentCoroutine = StartCoroutine(SpawnObject());
         totalEdiblesProbability = CalcTotalDropsProbability(ediblesPrefabs);
         totalNastysProbability = CalcTotalDropsProbability(nastysPrefabs);
     }
-    void Stop()
+    public void Stop()
     {
         StopCoroutine(currentCoroutine);
     }
@@ -32,7 +33,7 @@ public class DropSpawner : MonoBehaviour
         {
             // Calculate a random X position within the defined limits
             float randomX = Random.Range(-screenLimits, screenLimits);
-            DropLogic dropToSpawn = ChooseRandomDrop();
+            DropController dropToSpawn = ChooseRandomDrop();
 
             // Instantiate the prefab at the calculated position
             RegisterDrop(Instantiate(dropToSpawn, new Vector3(randomX, gameObject.transform.position.y, 0), Quaternion.identity));
@@ -45,9 +46,9 @@ public class DropSpawner : MonoBehaviour
         }
     }
 
-    DropLogic ChooseRandomDrop()
+    DropController ChooseRandomDrop()
     {
-        DropLogic chosenPrefab = null;
+        DropController chosenPrefab = null;
         string randomDropType = Random.Range(0f, 1f) > 0.4 ? "edible" : "nasty";
         switch (randomDropType)
         {
@@ -61,10 +62,10 @@ public class DropSpawner : MonoBehaviour
         return chosenPrefab;
     }
 
-    DropLogic GetRandomDrop(DropLogic[] drops, float totalProbability)
+    DropController GetRandomDrop(DropController[] drops, float totalProbability)
     {
         float currentRange = 0f;
-        DropLogic randomDrop = drops[^1];
+        DropController randomDrop = drops[^1];
         float randomProbability = Random.Range(0f, totalProbability);
         for (int i = 1; i < drops.Length; i++)
         {
@@ -81,7 +82,7 @@ public class DropSpawner : MonoBehaviour
         return randomDrop;
     }
 
-    float CalcTotalDropsProbability(DropLogic[] drops)
+    float CalcTotalDropsProbability(DropController[] drops)
     {
         float probability = 0f;
         foreach (var drop in drops)
@@ -90,13 +91,31 @@ public class DropSpawner : MonoBehaviour
         }
         return probability;
     }
-    public void RegisterDrop(DropLogic drop)
+    public void RegisterDrop(DropController drop)
     {
         currentDrops.Append(drop);
     }
-    public void UnregisterDrop(DropLogic drop)
+    public void UnregisterDrop(DropController drop)
     {
-        drop.GetComponentInParent<DropBehavior>().Destroy();
+        drop.GetComponentInParent<DropController>().Destroy();
         currentDrops.Remove(drop);
+    }
+    public void Pause()
+    {
+        currentDrops.ForEach((drop)=>{
+            drop.Pause();
+        });
+    }
+
+    public void Resume()
+    {
+        currentDrops.ForEach((drop)=>{
+            drop.Resume();
+        });
+    }
+
+    public void StopGamePlay()
+    {
+        throw new NotImplementedException();
     }
 }
